@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Document</title>
+  
+</head>
+<style>
+  
+  #header{
+    background-color:darkcyan ;
+    border-radius: 5%;
+    box-shadow: 15px 15px 15px rgba(7, 158, 208, 0.5);
+  }  
+  
+  
+  .row{
+    height: 60px;
+    width: 60%;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10%;
+    font-size: 25px;
+    }
+  .profil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    height: 80vh;
+    
+    }
+  img{
+    border-radius: 50%;
+    width: 500px;
+    object-fit: fill ;
+    
+  }
+  .infos{
+    background-color: brown;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 10%;
+    
+  }
+  button{
+    border-radius: 10%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    margin-top: 10%;
+  }
+  
+ button:hover{
+  color: #fff;
+  background-color: darkcyan;
+ }
+ #head{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 80vh;
+ gap: 10px;
+ 
+ }
+ h1{
+  text-decoration: underline;
+ }
+ p{
+  font-size: 30px;
+
+ }
+ .span{
+  color: #fff;
+ }
+ 
+ 
+ 
+</style>
+<body>
+  <div id="header">
+  <div class="row" >
+     <div class="col text-white"><a href="#header"><button>Profil</button></a></div>
+     <div  class="col text-white"><a href="#head"> <button>Compétences</button></a></div>
+     </div>
+  <div class="profil" >
+    <div class="text">
+      <h1> Ndeye Sokhna SENE</h1>
+    <P>
+      Etudiante en informatique appliquée à la gestion d'entreprise<br>
+      Aucours de ma licence,j'ai acquis des compétences qui mon permis<br>
+      de se  familliarisée avec les outils-informatiques.<br>
+      Je suis passionnéé du developpement-web et mon objectifs est de devenir <br>
+      <span class="span">DEV-FRONTEND</span>
+</P>
+    
+    </div>
+    <div class="img">
+      <img src="images/WhatsApp Image 2025-01-11 à 06.19.09_bc6a7c04.jpg" alt="">
+    </div>
+    
+    </div>
+    
+  </div>
+    <div id="head">
+     <div class="informatique">
+      <h1>Outils-informatiques</h1>
+      <p>Aucours de ma licence j'ai acquis des compétences en informatique<br>
+       comme les outils de bureautiques à savoir le power-point,Word et excel
+      </p>
+     </div>
+     <div class="dev">
+      <h1>Web</h1>
+      <p>Aucours de ma licence j'ai acquis des compétences en developpement-web<br>
+        avec  les outils de developpement-web comme<br>
+         html,css et javaScript et j'arrive à creer des projets personnel<br>
+        et en groupe
+       </p>
+     </div>
+     
+    
+    </div>
+      
+</body>
+</html>
